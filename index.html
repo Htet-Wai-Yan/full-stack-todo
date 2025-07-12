@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900 font-sans">
+    <div class="max-w-sm mx-auto mt-10 p-6 space-y-6">
+        <h1 class="text-2xl font-bold">Todo App</h1>
+        <form id="todo-form" class="flex gap-2 items-center">
+            <input type="text" id="task" placeholder="Enter a new task"
+                class="border border-gray-300 px-2 py-1 rounded w-full flex-1 focus:outline-blue-300" required>
+            <button type="submit"
+                class="px-4 py-1 bg-blue-500 hover:bg-blue-400 text-white rounded uppercase">Add</button>
+        </form>
+        <ul id="todo-list"></ul>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>

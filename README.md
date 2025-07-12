@@ -1,2 +1,7 @@
-# full-stack-todo
-CRUD todo app with php as backend and js as frontend
+# Fullstack Todo App
+
+This has the basic CRUD functionality using -
+
+- PHP as backend api
+- sqlite as data storage
+- javascript as frontend SPA
